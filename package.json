@@ -1,0 +1,18 @@
+{
+  "name": "New-HMC-Theme",
+  "version": "0.1.0",
+  "dependancies": {},
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-bower-task": "^0.4.0",
+    "grunt-contrib-compass": "^1.0.1",
+    "grunt-contrib-jshint": "^0.11.1",
+    "grunt-contrib-nodeunit": "^0.4.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-phplint": "0.0.5",
+    "grunt-rsync": "^0.6.2",
+    "load-grunt-tasks": "^3.1.0",
+    "rsyncwrapper": "^0.4.2",
+    "time-grunt": "^1.1.0"
+  }
+}

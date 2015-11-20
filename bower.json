@@ -1,0 +1,25 @@
+{
+  "name": "New_WP",
+  "version": "1.0.0",
+  "authors": [
+    "amanda iaria <amanda@wearehmc.com>"
+  ],
+  "description": "New Theme for HMC",
+  "main": "index.php",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "wordpress",
+    "theme"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

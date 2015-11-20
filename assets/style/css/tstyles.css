@@ -1,0 +1,118 @@
+/* line 21, ../sass/tstyles.scss */
+#twitterStream {
+  margin: auto;
+  margin-top: 30px;
+}
+/* line 25, ../sass/tstyles.scss */
+#twitterStream h1 {
+  text-align: center;
+}
+/* line 28, ../sass/tstyles.scss */
+#twitterStream .tweet {
+  background: #F1F1F2;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  clear: both;
+  display: flex;
+}
+/* line 36, ../sass/tstyles.scss */
+#twitterStream .tweet .date {
+  color: #333;
+  font-size: 30px;
+  margin-top: -10px;
+  text-align: center;
+}
+/* line 41, ../sass/tstyles.scss */
+#twitterStream .tweet .date .line {
+  width: 65%;
+  float: right;
+  margin-top: 20px;
+}
+/* line 47, ../sass/tstyles.scss */
+#twitterStream .tweet .content {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: right;
+}
+/* line 52, ../sass/tstyles.scss */
+#twitterStream .tweet .url {
+  text-align: right;
+  font-weight: 800;
+}
+/* line 55, ../sass/tstyles.scss */
+#twitterStream .tweet .url .line {
+  width: 75%;
+  float: left;
+  margin-top: 10px;
+}
+/* line 61, ../sass/tstyles.scss */
+#twitterStream .tweet .line {
+  background: #B7B6B8;
+  height: 1px;
+  position: relative;
+}
+/* line 69, ../sass/tstyles.scss */
+#twitterStream .col {
+  float: left;
+}
+/* line 72, ../sass/tstyles.scss */
+#twitterStream .col.one {
+  width: 25%;
+}
+/* line 75, ../sass/tstyles.scss */
+#twitterStream .col.two {
+  width: 70%;
+}
+
+/* line 80, ../sass/tstyles.scss */
+.gm-style-iw {
+  left: 28px !important;
+}
+
+/* line 84, ../sass/tstyles.scss */
+.spinner {
+  background: url("../../img/8-1.gif") no-repeat center center;
+}
+
+@media only screen and (max-width: 400px) {
+  /* line 88, ../sass/tstyles.scss */
+  #tweetBubble {
+    width: 265px;
+  }
+}
+/* line 92, ../sass/tstyles.scss */
+#tweetBubble .content {
+  font-size: 15px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+/* line 97, ../sass/tstyles.scss */
+#tweetBubble .image {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  max-height: 200px;
+  overflow: hidden;
+  /* Safari 3-4, iOS 1-3.2, Android 1.6- */
+  -webkit-border-radius: 5px;
+  /* Firefox 1-3.6 */
+  -moz-border-radius: 5px;
+  /* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
+  border-radius: 5px;
+}
+/* line 106, ../sass/tstyles.scss */
+#tweetBubble .image .container img {
+  margin-top: -50px;
+}
+/* line 110, ../sass/tstyles.scss */
+#tweetBubble .image .container a {
+  opacity: 1.0;
+  cursor: pointer;
+}
+/* line 113, ../sass/tstyles.scss */
+#tweetBubble .image .container a:hover {
+  background: #000000;
+  opacity: 0.5;
+}
