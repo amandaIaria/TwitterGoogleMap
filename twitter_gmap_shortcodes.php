@@ -104,6 +104,7 @@ function gm($att, $content = null){
 			function initialize() {
   			var mapOptions = {
     			zoom : zoom,
+          scrollwheel: false,
           draggable : <?php if(is_mobile() or is_tablet()) echo 'false';
                             else echo 'true'; ?>,
     			center : tLocation
